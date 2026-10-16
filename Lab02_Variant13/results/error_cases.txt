@@ -1,0 +1,15 @@
+missing_dir: exit 1
+[INFO] Розпочато сканування текстових файлів
+[ERROR] Сканування або запис звіту неможливі; перевірте шляхи й права доступу
+
+invalid_patterns: exit 2
+usage: main.py analyze [-h] --scan-dir SCAN_DIR
+                       [--patterns {all,cards,emails}] [--mask] --out-json
+                       OUT_JSON
+main.py analyze: error: argument --patterns: invalid choice: 'wrong' (choose from all, cards, emails)
+
+missing_args: exit 2
+usage: main.py analyze [-h] --scan-dir SCAN_DIR
+                       [--patterns {all,cards,emails}] [--mask] --out-json
+                       OUT_JSON
+main.py analyze: error: the following arguments are required: --scan-dir, --out-json

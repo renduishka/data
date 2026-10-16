@@ -1,0 +1,45 @@
+[
+  {
+    "url": "https://secure.example.invalid/",
+    "headers": {
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+      "Content-Security-Policy": "default-src 'self'",
+      "X-Frame-Options": "DENY",
+      "X-Content-Type-Options": "nosniff",
+      "Server": "web-gateway"
+    }
+  },
+  {
+    "url": "https://legacy.example.invalid/",
+    "headers": {
+      "X-Frame-Options": "SAMEORIGIN",
+      "Server": "Apache/2.4.49",
+      "X-Powered-By": "PHP/7.4.3"
+    }
+  },
+  {
+    "url": "https://api.example.invalid/",
+    "headers": {
+      "Strict-Transport-Security": "max-age=86400",
+      "Content-Security-Policy": "default-src 'none'",
+      "X-Content-Type-Options": "nosniff",
+      "Server": "nginx/1.18.0"
+    }
+  },
+  {
+    "url": "https://portal.example.invalid/",
+    "headers": {
+      "Strict-Transport-Security": "max-age=31536000",
+      "Content-Security-Policy": "default-src 'self'; frame-ancestors 'none'",
+      "X-Frame-Options": "DENY",
+      "X-Content-Type-Options": "nosniff",
+      "X-Powered-By": "Express"
+    }
+  },
+  {
+    "url": "https://minimal.example.invalid/",
+    "headers": {
+      "Server": "Microsoft-IIS/10.0"
+    }
+  }
+]

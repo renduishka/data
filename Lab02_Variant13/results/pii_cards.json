@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-10-16T11:00:56.274479+00:00",
+  "patterns": "cards",
+  "masked": true,
+  "files_scanned": 4,
+  "files_skipped": 0,
+  "counts": {
+    "cards": 3
+  },
+  "total_matches": 3,
+  "findings": [
+    {
+      "file": "exports/export.json",
+      "line": 12,
+      "column": 16,
+      "type": "cards",
+      "value": "4000-****-****-0002"
+    },
+    {
+      "file": "logs/app.log",
+      "line": 3,
+      "column": 30,
+      "type": "cards",
+      "value": "4111-****-****-1111"
+    },
+    {
+      "file": "notes/users.txt",
+      "line": 6,
+      "column": 12,
+      "type": "cards",
+      "value": "5555 **** **** 4444"
+    }
+  ]
+}

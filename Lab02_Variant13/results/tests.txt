@@ -1,0 +1,28 @@
+$ python3 -m unittest discover -s tests -v
+test_login_timeout_logout (test_lab02.AccountTests) ... ok
+test_replacing_user_invalidates_session (test_lab02.AccountTests) ... ok
+test_validation_and_keys (test_lab02.AccountTests) ... ok
+test_false_positives_and_overlap (test_lab02.ScannerTests) ... ok
+test_fixture_counts_and_filters (test_lab02.ScannerTests) ... Виявлено PII: 5 збігів у текстовому файлі
+Виявлено PII: 5 збігів у текстовому файлі
+Виявлено PII: 5 збігів у текстовому файлі
+Виявлено PII: 1 збігів у текстовому файлі
+Виявлено PII: 1 збігів у текстовому файлі
+Виявлено PII: 1 збігів у текстовому файлі
+Виявлено PII: 2 збігів у текстовому файлі
+Виявлено PII: 1 збігів у текстовому файлі
+Виявлено PII: 1 збігів у текстовому файлі
+ok
+test_masked_outputs_do_not_contain_raw_values (test_lab02.ScannerTests) ... Виявлено PII: 5 збігів у текстовому файлі
+Виявлено PII: 5 збігів у текстовому файлі
+Виявлено PII: 5 збігів у текстовому файлі
+ok
+test_output_cannot_overwrite_input (test_lab02.ScannerTests) ... ok
+test_unreadable_binary_symlink_and_missing_directory (test_lab02.ScannerTests) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.097s
+
+OK
+
+Exit code: 0

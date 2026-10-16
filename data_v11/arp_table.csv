@@ -1,0 +1,12 @@
+IP Address,MAC Address,Interface,Type
+192.168.1.1,00:11:22:33:44:55,eth0,dynamic
+192.168.1.10,AA:BB:CC:DD:EE:01,eth0,dynamic
+192.168.1.11,AA:BB:CC:DD:EE:02,eth0,dynamic
+192.168.1.12,AA:BB:CC:DD:EE:03,eth0,static
+192.168.1.20,DE:AD:BE:EF:00:01,eth0,dynamic
+192.168.1.21,DE:AD:BE:EF:00:01,eth0,dynamic
+192.168.1.22,DE:AD:BE:EF:00:01,wlan0,dynamic
+10.0.0.5,12:34:56:78:9A:BC,eth1,dynamic
+999.168.1.30,AA:BB:CC:DD:EE:30,eth0,dynamic
+192.168.1.31,GG:11:22:33:44:55,eth0,dynamic
+192.168.1.32,0011.2233.4455,eth0,dynamic

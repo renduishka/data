@@ -1,0 +1,58 @@
+{
+  "data_v01": [
+    "access.log"
+  ],
+  "data_v02": [
+    "baseline.json",
+    "monitored/README.txt",
+    "monitored/config/app.conf",
+    "monitored/config/firewall.conf",
+    "monitored/new/agent.conf",
+    "monitored/scripts/backup.sh"
+  ],
+  "data_v03": [
+    "firewall_rules.json"
+  ],
+  "data_v04": [
+    "auth.log"
+  ],
+  "data_v05": [
+    "targets.json"
+  ],
+  "data_v06": [
+    "passwords.txt"
+  ],
+  "data_v07": [
+    "activity.csv"
+  ],
+  "data_v08": [
+    "blacklist.txt",
+    "dns_queries.csv"
+  ],
+  "data_v09": [
+    "headers.json"
+  ],
+  "data_v10": [
+    "certificates.json"
+  ],
+  "data_v11": [
+    "arp_table.csv"
+  ],
+  "data_v12": [
+    "mail_headers.log",
+    "suspicious_keywords.txt"
+  ],
+  "data_v13": [
+    "scan/clean.txt",
+    "scan/exports/export.json",
+    "scan/logs/app.log",
+    "scan/notes/users.txt"
+  ],
+  "data_v14": [
+    "edr_alerts.json"
+  ],
+  "data_v15": [
+    "alert_commands.txt",
+    "sudo.log"
+  ]
+}

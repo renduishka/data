@@ -1,0 +1,25 @@
+$ python3 -m labs.lab02.main demo
+Лабораторна робота 2 | Варіант 13 | Завдання 1
+User(student13, student13@example.test, role=user, active=True)
+Новий email: student_new@example.test
+Некоректний email відхилено
+Невдалий вхід: False
+Успішний вхід: True
+Сеанс активний: True
+Сеанс після таймауту: False
+User(admin13, admin13@example.test, role=admin, active=True), permissions=['READ_LOGS', 'SCAN_PII']
+Право SCAN_PII: True
+Право після відкликання: False
+Доступ до ключа password_hash відхилено
+Доступ до ключа unknown відхилено
+Неправильний тип active відхилено
+Після logout: False
+Вхід неактивного користувача: False
+Журнал аудиту
+2026-10-16T11:00:56.149293+00:00 | student13 | login_failure
+2026-10-16T11:00:56.164302+00:00 | student13 | login_success
+2026-10-16T11:00:56.178931+00:00 | student13 | login_success
+2026-10-16T11:00:56.178933+00:00 | student13 | logout
+2026-10-16T11:00:56.178938+00:00 | student13 | login_failure
+
+Exit code: 0

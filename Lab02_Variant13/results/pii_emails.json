@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-10-16T11:00:56.320302+00:00",
+  "patterns": "emails",
+  "masked": true,
+  "files_scanned": 4,
+  "files_skipped": 0,
+  "counts": {
+    "emails": 4
+  },
+  "total_matches": 4,
+  "findings": [
+    {
+      "file": "exports/export.json",
+      "line": 4,
+      "column": 17,
+      "type": "emails",
+      "value": "c****@example.test"
+    },
+    {
+      "file": "exports/export.json",
+      "line": 8,
+      "column": 17,
+      "type": "emails",
+      "value": "d***@example.test"
+    },
+    {
+      "file": "logs/app.log",
+      "line": 1,
+      "column": 28,
+      "type": "emails",
+      "value": "a****@example.test"
+    },
+    {
+      "file": "notes/users.txt",
+      "line": 2,
+      "column": 10,
+      "type": "emails",
+      "value": "b********@example.test"
+    }
+  ]
+}

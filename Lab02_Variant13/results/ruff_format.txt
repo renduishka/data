@@ -1,0 +1,4 @@
+$ ruff format .
+9 files left unchanged
+
+Exit code: 0

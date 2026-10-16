@@ -1,0 +1,121 @@
+{
+  "generated_at": "2026-10-16T11:01:50.385979+00:00",
+  "patterns": "all",
+  "masked": true,
+  "files_scanned": 4,
+  "files_skipped": 0,
+  "counts": {
+    "emails": 4,
+    "cards": 3,
+    "phones": 4,
+    "ips": 4
+  },
+  "total_matches": 15,
+  "findings": [
+    {
+      "file": "exports/export.json",
+      "line": 4,
+      "column": 17,
+      "type": "emails",
+      "value": "c****@example.test"
+    },
+    {
+      "file": "exports/export.json",
+      "line": 5,
+      "column": 14,
+      "type": "ips",
+      "value": "203.0.*.*"
+    },
+    {
+      "file": "exports/export.json",
+      "line": 8,
+      "column": 17,
+      "type": "emails",
+      "value": "d***@example.test"
+    },
+    {
+      "file": "exports/export.json",
+      "line": 9,
+      "column": 17,
+      "type": "phones",
+      "value": "+** ** **** 0958"
+    },
+    {
+      "file": "exports/export.json",
+      "line": 12,
+      "column": 16,
+      "type": "cards",
+      "value": "4000-****-****-0002"
+    },
+    {
+      "file": "logs/app.log",
+      "line": 1,
+      "column": 28,
+      "type": "emails",
+      "value": "a****@example.test"
+    },
+    {
+      "file": "logs/app.log",
+      "line": 1,
+      "column": 50,
+      "type": "ips",
+      "value": "192.0.*.*"
+    },
+    {
+      "file": "logs/app.log",
+      "line": 2,
+      "column": 31,
+      "type": "phones",
+      "value": "+*** ** *** 45 67"
+    },
+    {
+      "file": "logs/app.log",
+      "line": 3,
+      "column": 30,
+      "type": "cards",
+      "value": "4111-****-****-1111"
+    },
+    {
+      "file": "logs/app.log",
+      "line": 4,
+      "column": 29,
+      "type": "ips",
+      "value": "198.51.*.*"
+    },
+    {
+      "file": "notes/users.txt",
+      "line": 2,
+      "column": 10,
+      "type": "emails",
+      "value": "b********@example.test"
+    },
+    {
+      "file": "notes/users.txt",
+      "line": 3,
+      "column": 8,
+      "type": "phones",
+      "value": "+*-***-***-0147"
+    },
+    {
+      "file": "notes/users.txt",
+      "line": 4,
+      "column": 15,
+      "type": "phones",
+      "value": "******4567"
+    },
+    {
+      "file": "notes/users.txt",
+      "line": 5,
+      "column": 14,
+      "type": "ips",
+      "value": "10.20.*.*"
+    },
+    {
+      "file": "notes/users.txt",
+      "line": 6,
+      "column": 12,
+      "type": "cards",
+      "value": "5555 **** **** 4444"
+    }
+  ]
+}

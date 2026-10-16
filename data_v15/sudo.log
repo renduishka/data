@@ -1,0 +1,12 @@
+2026-09-27T08:10:00+03:00 host01 sudo: alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+2026-09-27T08:15:00+03:00 host01 sudo: alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+2026-09-27T09:00:00+03:00 host01 sudo: bob : TTY=pts/1 ; PWD=/srv/app ; USER=www-data ; COMMAND=/usr/bin/python3 manage.py migrate
+2026-09-27T09:20:00+03:00 host01 sudo: carol : TTY=pts/2 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/chmod 777 /srv/share
+2026-09-27T09:30:00+03:00 host01 sudo: carol : TTY=pts/2 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/nc -lvp 4444
+2026-09-27T09:32:00+03:00 host01 sudo: carol : TTY=pts/2 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/nmap -sS 10.0.0.0/24
+2026-09-27T10:00:00+03:00 host01 sudo: dave : TTY=pts/3 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/dd if=/dev/zero of=/tmp/test.img bs=1M count=10
+2026-09-27T10:10:00+03:00 host01 sudo: dave : TTY=pts/3 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/vim /etc/shadow
+2026-09-27T11:00:00+03:00 host01 sudo: eve : TTY=pts/4 ; PWD=/home/eve ; USER=backup ; COMMAND=/usr/bin/tar -czf /tmp/home.tgz /home/eve
+2026-09-27T11:30:00+03:00 host01 sudo: alice : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -n 100 /var/log/syslog
+2026-09-27T12:00:00+03:00 host01 sudo: carol : TTY=pts/2 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/chmod 777 /tmp/public
+2026-09-27T12:05:00+03:00 host01 sudo: carol : TTY=pts/2 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/nc 203.0.113.10 9001

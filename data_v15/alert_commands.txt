@@ -1,0 +1,5 @@
+chmod 777
+nc
+nmap
+dd
+/etc/shadow

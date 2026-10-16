@@ -1,0 +1,15 @@
+$ python3 -m labs.lab02.main analyze --scan-dir labs/lab02/data/data_v13/scan --patterns emails --mask --out-json results/pii_emails.json
+[INFO] Розпочато сканування текстових файлів
+[WARNING] Виявлено PII: 2 збігів у текстовому файлі
+[WARNING] Виявлено PII: 1 збігів у текстовому файлі
+[WARNING] Виявлено PII: 1 збігів у текстовому файлі
+[INFO] JSON-звіт збережено
+Файлів перевірено: 4; пропущено: 0
+emails: 4
+Усього збігів: 4
+exports/export.json:4:17 | emails | c****@example.test
+exports/export.json:8:17 | emails | d***@example.test
+logs/app.log:1:28 | emails | a****@example.test
+notes/users.txt:2:10 | emails | b********@example.test
+
+Exit code: 0

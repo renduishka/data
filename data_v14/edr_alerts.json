@@ -1,0 +1,90 @@
+[
+  {
+    "AlertID": "A-1001",
+    "Timestamp": "2026-09-27T08:10:00",
+    "Hostname": "WS-001",
+    "ThreatName": "EICAR-Test-File",
+    "Severity": "Low",
+    "ActionTaken": "Deleted"
+  },
+  {
+    "AlertID": "A-1002",
+    "Timestamp": "2026-09-27T08:20:00",
+    "Hostname": "WS-002",
+    "ThreatName": "SuspiciousPowerShell",
+    "Severity": "High",
+    "ActionTaken": "Blocked"
+  },
+  {
+    "AlertID": "A-1003",
+    "Timestamp": "2026-09-27T08:25:00",
+    "Hostname": "WS-002",
+    "ThreatName": "Trojan.Demo",
+    "Severity": "Critical",
+    "ActionTaken": "Quarantined"
+  },
+  {
+    "AlertID": "A-1004",
+    "Timestamp": "2026-09-27T09:00:00",
+    "Hostname": "SRV-DB01",
+    "ThreatName": "CredentialDumping.Demo",
+    "Severity": "Critical",
+    "ActionTaken": "Detected"
+  },
+  {
+    "AlertID": "A-1005",
+    "Timestamp": "2026-09-27T09:10:00",
+    "Hostname": "WS-003",
+    "ThreatName": "Adware.Demo",
+    "Severity": "Medium",
+    "ActionTaken": "Deleted"
+  },
+  {
+    "AlertID": "A-1006",
+    "Timestamp": "2026-09-27T09:20:00",
+    "Hostname": "SRV-WEB01",
+    "ThreatName": "WebShell.Demo",
+    "Severity": "High",
+    "ActionTaken": "Quarantined"
+  },
+  {
+    "AlertID": "A-1007",
+    "Timestamp": "2026-09-27T09:25:00",
+    "Hostname": "SRV-DB01",
+    "ThreatName": "Ransomware.Demo",
+    "Severity": "Critical",
+    "ActionTaken": "Blocked"
+  },
+  {
+    "AlertID": "A-1008",
+    "Timestamp": "2026-09-27T10:00:00",
+    "Hostname": "WS-002",
+    "ThreatName": "SuspiciousPowerShell",
+    "Severity": "High",
+    "ActionTaken": "Ignored"
+  },
+  {
+    "AlertID": "A-1009",
+    "Timestamp": "2026-09-27T10:15:00",
+    "Hostname": "WS-004",
+    "ThreatName": "PUA.Demo",
+    "Severity": "Low",
+    "ActionTaken": "Deleted"
+  },
+  {
+    "AlertID": "A-1010",
+    "Timestamp": "2026-09-27T10:20:00",
+    "Hostname": "SRV-WEB01",
+    "ThreatName": "Trojan.Demo",
+    "Severity": "High",
+    "ActionTaken": "Deleted"
+  },
+  {
+    "AlertID": "A-1011",
+    "Timestamp": "2026-09-27T10:30:00",
+    "Hostname": "WS-005",
+    "ThreatName": "CredentialDumping.Demo",
+    "Severity": "Critical",
+    "ActionTaken": "NoAction"
+  }
+]

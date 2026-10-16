@@ -1,0 +1,29 @@
+$ python3 -m labs.lab02.main analyze --scan-dir labs/lab02/data/data_v13/scan --patterns all --mask --out-json results/pii_all.json
+[INFO] Розпочато сканування текстових файлів
+[WARNING] Виявлено PII: 5 збігів у текстовому файлі
+[WARNING] Виявлено PII: 5 збігів у текстовому файлі
+[WARNING] Виявлено PII: 5 збігів у текстовому файлі
+[INFO] JSON-звіт збережено
+Файлів перевірено: 4; пропущено: 0
+emails: 4
+cards: 3
+phones: 4
+ips: 4
+Усього збігів: 15
+exports/export.json:4:17 | emails | c****@example.test
+exports/export.json:5:14 | ips | 203.0.*.*
+exports/export.json:8:17 | emails | d***@example.test
+exports/export.json:9:17 | phones | +** ** **** 0958
+exports/export.json:12:16 | cards | 4000-****-****-0002
+logs/app.log:1:28 | emails | a****@example.test
+logs/app.log:1:50 | ips | 192.0.*.*
+logs/app.log:2:31 | phones | +*** ** *** 45 67
+logs/app.log:3:30 | cards | 4111-****-****-1111
+logs/app.log:4:29 | ips | 198.51.*.*
+notes/users.txt:2:10 | emails | b********@example.test
+notes/users.txt:3:8 | phones | +*-***-***-0147
+notes/users.txt:4:15 | phones | ******4567
+notes/users.txt:5:14 | ips | 10.20.*.*
+notes/users.txt:6:12 | cards | 5555 **** **** 4444
+
+Exit code: 0

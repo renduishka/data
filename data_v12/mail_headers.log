@@ -1,0 +1,52 @@
+Message-ID: <001@example.invalid>
+From: HR Department <hr@example.com>
+Return-Path: <hr@example.com>
+Reply-To: hr@example.com
+Received: from mail.example.com by mx.example.net
+Received: from workstation.example.com by mail.example.com
+Subject: Updated holiday policy
+
+--- MESSAGE ---
+Message-ID: <002@example.invalid>
+From: Security Team <security@example.com>
+Return-Path: <bounce@mailer.example.com>
+Reply-To: support@evil-example.invalid
+Received: from relay1.example.net by mx.example.net
+Received: from relay2.example.net by relay1.example.net
+Received: from unknown-host.example.invalid by relay2.example.net
+Subject: URGENT: Verify your account immediately
+
+--- MESSAGE ---
+Message-ID: <003@example.invalid>
+From: Finance <finance@example.com>
+Return-Path: <finance@example.com>
+Reply-To: finance@example.com
+Received: from finance-pc.example.com by mail.example.com
+Subject: Invoice for September
+
+--- MESSAGE ---
+Message-ID: <004@example.invalid>
+From: IT Helpdesk <helpdesk@example.com>
+Return-Path: <notifications@updates.example.invalid>
+Reply-To: password-reset@updates.example.invalid
+Received: from host1.example.invalid by host2.example.invalid
+Received: from host2.example.invalid by host3.example.invalid
+Received: from host3.example.invalid by host4.example.invalid
+Received: from host4.example.invalid by mx.example.net
+Subject: Password expired - reset now
+
+--- MESSAGE ---
+Message-ID: <005@example.invalid>
+From: CEO Office <ceo@example.com>
+Return-Path: <ceo@example.com>
+Reply-To: ceo@example.com
+Received: from executive-pc.example.com by mail.example.com
+Subject: Meeting agenda for Monday
+
+--- MESSAGE ---
+Message-ID: <006@example.invalid>
+From: Payroll <payroll@example.com>
+Return-Path: <payroll@billing-example.invalid>
+Reply-To: payroll@billing-example.invalid
+Received: from smtp.billing-example.invalid by mx.example.net
+Subject: CONFIDENTIAL: payment required today

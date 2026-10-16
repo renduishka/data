@@ -1,0 +1,14 @@
+$ python3 -m labs.lab02.main analyze --scan-dir labs/lab02/data/data_v13/scan --patterns cards --mask --out-json results/pii_cards.json
+[INFO] Розпочато сканування текстових файлів
+[WARNING] Виявлено PII: 1 збігів у текстовому файлі
+[WARNING] Виявлено PII: 1 збігів у текстовому файлі
+[WARNING] Виявлено PII: 1 збігів у текстовому файлі
+[INFO] JSON-звіт збережено
+Файлів перевірено: 4; пропущено: 0
+cards: 3
+Усього збігів: 3
+exports/export.json:12:16 | cards | 4000-****-****-0002
+logs/app.log:3:30 | cards | 4111-****-****-1111
+notes/users.txt:6:12 | cards | 5555 **** **** 4444
+
+Exit code: 0
